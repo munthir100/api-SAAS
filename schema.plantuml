@@ -1,0 +1,13 @@
+// Tenant:_
+//  id , name
+
+// User:_
+// id , tenant_id,name,email,password;
+
+// Product:_
+// id ,name,tenant_id
+
+// Order:_
+
+// id , tenant_id,product_id, user_id,quantity,price,status
+// write a graph for this code with relations

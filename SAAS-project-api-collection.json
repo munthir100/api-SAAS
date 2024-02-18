@@ -1,0 +1,462 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "new collection",
+    "dateExported": "2024-02-18T08:46:17.073Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "caf457dd-7bd1-4b2c-aad5-8b551b03033f",
+            "name": "Tenants",
+            "containerId": "",
+            "created": "2024-02-18T08:20:49.624Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "2cf2843a-9339-4ef8-b8e9-163ea2a472b1",
+            "name": "Users",
+            "containerId": "",
+            "created": "2024-02-18T08:29:27.456Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "aef8c1a4-6643-431d-81d2-006dd1cfa1db",
+            "name": "Products",
+            "containerId": "",
+            "created": "2024-02-18T08:31:49.608Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "887c0a35-d77a-4117-b45e-60a2171924f8",
+            "name": "Orders",
+            "containerId": "",
+            "created": "2024-02-18T08:36:14.823Z",
+            "sortNum": 40000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "9754e7c1-f95f-4584-acc4-3a832142fd9d",
+            "colId": "2b182e0b-e6a7-4f5c-8daa-d0e26d68fcaf",
+            "containerId": "caf457dd-7bd1-4b2c-aad5-8b551b03033f",
+            "name": "Get All Tenants",
+            "url": "localhost:8000/api/tenants",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-18T08:21:14.175Z",
+            "modified": "2024-02-18T08:21:33.601Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a05cd818-0a23-43e9-920d-60389a9ad6b6",
+            "colId": "2b182e0b-e6a7-4f5c-8daa-d0e26d68fcaf",
+            "containerId": "2cf2843a-9339-4ef8-b8e9-163ea2a472b1",
+            "name": "Get All Users",
+            "url": "localhost:8000/api/users",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-18T08:29:27.456Z",
+            "modified": "2024-02-18T08:29:57.135Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "614a76e5-2ea0-473d-af3d-b0f257f14f6a",
+            "colId": "2b182e0b-e6a7-4f5c-8daa-d0e26d68fcaf",
+            "containerId": "aef8c1a4-6643-431d-81d2-006dd1cfa1db",
+            "name": "Get All Products",
+            "url": "localhost:8000/api/products",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-18T08:31:49.608Z",
+            "modified": "2024-02-18T08:32:48.585Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9793ae90-9576-4561-b977-85de4b7cbd89",
+            "colId": "2b182e0b-e6a7-4f5c-8daa-d0e26d68fcaf",
+            "containerId": "887c0a35-d77a-4117-b45e-60a2171924f8",
+            "name": "Get All Orders",
+            "url": "localhost:8000/api/orders",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-18T08:36:14.824Z",
+            "modified": "2024-02-18T08:36:51.044Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3835a0a8-5696-4159-b294-1e3400a929e1",
+            "colId": "2b182e0b-e6a7-4f5c-8daa-d0e26d68fcaf",
+            "containerId": "caf457dd-7bd1-4b2c-aad5-8b551b03033f",
+            "name": "Get Specific Tenant Data With Related User",
+            "url": "localhost:8000/api/tenants/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-18T08:21:36.503Z",
+            "modified": "2024-02-18T08:21:59.290Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "caf223e9-fc04-4f29-a7d2-bc6368f7c1a1",
+            "colId": "2b182e0b-e6a7-4f5c-8daa-d0e26d68fcaf",
+            "containerId": "2cf2843a-9339-4ef8-b8e9-163ea2a472b1",
+            "name": "Get User By Id",
+            "url": "localhost:8000/api/users/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-18T08:29:27.457Z",
+            "modified": "2024-02-18T08:30:38.994Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "97eecd63-7c2e-4f8d-8cb9-74cde3d455d6",
+            "colId": "2b182e0b-e6a7-4f5c-8daa-d0e26d68fcaf",
+            "containerId": "aef8c1a4-6643-431d-81d2-006dd1cfa1db",
+            "name": "Get Product By Id",
+            "url": "localhost:8000/api/products/14",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-18T08:31:49.609Z",
+            "modified": "2024-02-18T08:34:29.923Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "58d18212-3e15-415f-8483-e9d8e4b176bd",
+            "colId": "2b182e0b-e6a7-4f5c-8daa-d0e26d68fcaf",
+            "containerId": "887c0a35-d77a-4117-b45e-60a2171924f8",
+            "name": "Get Order By Id",
+            "url": "localhost:8000/api/orders/30",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-18T08:36:14.825Z",
+            "modified": "2024-02-18T08:37:09.872Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "aaf16b24-a8e8-4e06-92a4-c86a032663c1",
+            "colId": "2b182e0b-e6a7-4f5c-8daa-d0e26d68fcaf",
+            "containerId": "caf457dd-7bd1-4b2c-aad5-8b551b03033f",
+            "name": "Update Tenant",
+            "url": "localhost:8000/api/tenants/4",
+            "method": "PUT",
+            "sortNum": 25000,
+            "created": "2024-02-18T08:23:08.270Z",
+            "modified": "2024-02-18T08:29:10.066Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "d "
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "deaf14e7-ec97-4051-a341-dd9864f07242",
+            "colId": "2b182e0b-e6a7-4f5c-8daa-d0e26d68fcaf",
+            "containerId": "2cf2843a-9339-4ef8-b8e9-163ea2a472b1",
+            "name": "Update Tenant",
+            "url": "localhost:8000/api/users/4",
+            "method": "PUT",
+            "sortNum": 25000,
+            "created": "2024-02-18T08:29:27.458Z",
+            "modified": "2024-02-18T08:30:49.281Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "d "
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "1fdb1ed6-a1a7-4310-9282-6688eb935242",
+            "colId": "2b182e0b-e6a7-4f5c-8daa-d0e26d68fcaf",
+            "containerId": "aef8c1a4-6643-431d-81d2-006dd1cfa1db",
+            "name": "Update Product",
+            "url": "localhost:8000/api/products/14",
+            "method": "PUT",
+            "sortNum": 25000,
+            "created": "2024-02-18T08:31:49.610Z",
+            "modified": "2024-02-18T08:34:58.038Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "d "
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "d443a44d-7622-44b1-8b2a-6af66276a52c",
+            "colId": "2b182e0b-e6a7-4f5c-8daa-d0e26d68fcaf",
+            "containerId": "887c0a35-d77a-4117-b45e-60a2171924f8",
+            "name": "Update Order",
+            "url": "localhost:8000/api/orders/30",
+            "method": "PUT",
+            "sortNum": 25000,
+            "created": "2024-02-18T08:36:14.826Z",
+            "modified": "2024-02-18T08:37:37.879Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "d "
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "aeca02b5-0bb6-4eae-b9fc-2cafbddcd92c",
+            "colId": "2b182e0b-e6a7-4f5c-8daa-d0e26d68fcaf",
+            "containerId": "caf457dd-7bd1-4b2c-aad5-8b551b03033f",
+            "name": "Delete Tenant",
+            "url": "localhost:8000/api/tenants/1",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-02-18T08:22:05.148Z",
+            "modified": "2024-02-18T08:22:29.406Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d985ac2b-9ef7-4df0-906b-b48d856cc100",
+            "colId": "2b182e0b-e6a7-4f5c-8daa-d0e26d68fcaf",
+            "containerId": "2cf2843a-9339-4ef8-b8e9-163ea2a472b1",
+            "name": "Delete Tenant",
+            "url": "localhost:8000/api/products/1",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-02-18T08:29:27.459Z",
+            "modified": "2024-02-18T08:32:19.171Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5dd9acf3-cfaf-400e-9d12-2a84f87b69d1",
+            "colId": "2b182e0b-e6a7-4f5c-8daa-d0e26d68fcaf",
+            "containerId": "aef8c1a4-6643-431d-81d2-006dd1cfa1db",
+            "name": "Delete Product",
+            "url": "localhost:8000/api/products/14",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-02-18T08:31:49.611Z",
+            "modified": "2024-02-18T08:36:01.092Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a909a389-907d-4daa-b128-b1f472eb6ce1",
+            "colId": "2b182e0b-e6a7-4f5c-8daa-d0e26d68fcaf",
+            "containerId": "887c0a35-d77a-4117-b45e-60a2171924f8",
+            "name": "Delete Order",
+            "url": "localhost:8000/api/orders/30",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-02-18T08:36:14.827Z",
+            "modified": "2024-02-18T08:38:02.760Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

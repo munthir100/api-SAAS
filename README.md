@@ -11,7 +11,7 @@ Welcome to the SAAS Application – a Laravel-based project for managing tenants
   - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+- [API Documentation](#api-documentation)
 
 ## Introduction
 
@@ -40,13 +40,13 @@ Make sure you have the following installed on your machine:
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/munthir100/simple-SAAS.git
+    git clone https://github.com/munthir100/api-SAAS.git
     ```
 
 2. **Navigate to the Project Directory:**
 
     ```bash
-    cd simple-SAAS
+    cd api-SAAS
     ```
 
 3. **Install Dependencies:**
@@ -85,6 +85,13 @@ Explore the application and use the features provided for managing tenants, user
 
 Feel free to contribute to the development of this project by opening issues or submitting pull requests.
 
-## License
+## API Documentation
 
-This project is licensed under the [MIT License](LICENSE).
+Explore and test the API using the provided OpenAPI Collection in Postman.
+
+1. [Download SAAS Application OpenAPI Collection](SAAS-project-api-collection.json)
+2. Import the collection into Postman.
+3. Start testing and interacting with the API endpoints.
+
+To get started quickly, download the [SAAS Application OpenAPI Collection](SAAS-project-api-collection.json) file and then import it into Postman. This collection includes pre-configured requests for various API endpoints, making it easy to test and understand the functionality.
+
