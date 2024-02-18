@@ -40,13 +40,13 @@ Make sure you have the following installed on your machine:
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/munthir100/simple-SAAS.git
     ```
 
 2. **Navigate to the Project Directory:**
 
     ```bash
-    cd your-repo
+    cd simple-SAAS
     ```
 
 3. **Install Dependencies:**
